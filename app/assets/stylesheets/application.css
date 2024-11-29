@@ -1,0 +1,129 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+ .top-box {
+  margin: 33px;
+ }
+
+ .main-box {
+  padding-left: 33px;
+ }
+
+ .main-box,h1 {
+  font-size: 24px;
+ }
+
+ .main-box,p {
+  margin: 33px 0;
+  font-size: 13px;
+ }
+
+.book-list {
+  margin: 33px;
+}
+
+.book-list,h1 {
+  font-size: 24px;
+}
+
+.book-list,h4 {
+  font-size: 13px;
+}
+
+table {
+  line-height: 1.8;
+  border-spacing: 5px;
+}
+
+.list-box {
+  width: 800px;
+  padding: 0;
+  margin: 0;
+}
+
+.edit-box {
+  margin: 33px;
+}
+
+.show-box {
+  margin: 33px;
+  font-size: 13px;
+}
+
+.text-box {
+  margin: 33px;
+}
+
+.title-box {
+  margin-bottom: 33px;
+}
+
+.body-box {
+  margin-top: 33px;
+}
+
+table {
+  width: 100%;
+  font-size: 13px;
+}
+
+.index-box {
+  margin-bottom: 10px;
+}
+
+.edit-box {
+  font-size: 13px;
+}
+
+.form-box {
+  display: flex;
+  flex-flow: column;
+}
+
+.form-text {
+  margin: 10px 0;
+}
+
+.form-area {
+  margin: 10px 0;
+}
+
+.form-submit {
+  margin: 10px 0;
+}
+
+.link-box {
+  display: flex;
+}
+
+.show-link {
+  padding-right: 6px;
+}
+
+.edit-link {
+  padding-right: 6px;
+}
+
+.back-link {
+  padding-left: 6px;
+  border-left: solid 1px black;
+}
